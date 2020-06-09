@@ -1,4 +1,5 @@
-Go to the [firebase console](https://console.firebase.google.com/) and create a new project 
+# create a new project 
+Go to the [firebase console](https://console.firebase.google.com/) 
 
 <img width="814" alt="Screen Shot 2020-06-09 at 1 41 28 pm" src="https://user-images.githubusercontent.com/1059276/84107855-20adcf00-aa62-11ea-84c3-1d32faa28eb4.png">
 
@@ -29,3 +30,7 @@ Add a Service Id...
 or... 
 
 <img width="956" alt="Screen Shot 2020-06-09 at 1 48 30 pm" src="https://user-images.githubusercontent.com/1059276/84108131-cfeaa600-aa62-11ea-9507-b637ec14a575.png">
+
+# Create an iOS app
+
+bundle id - one place to find this is in `ios/Runner.xcodeproj/project.pbxproj`, under `PRODUCT_BUNDLE_IDENTIFIER` 
