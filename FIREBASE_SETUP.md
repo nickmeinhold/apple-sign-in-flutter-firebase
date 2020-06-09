@@ -43,7 +43,7 @@ Enter your bundle id
 - one place to find this is in `ios/Runner.xcodeproj/project.pbxproj`, under `PRODUCT_BUNDLE_IDENTIFIER` 
 - choose a nickname 
 - you can leave the App Store ID blank 
-- hit Next
+- hit Register app
 
 <img width="614" alt="Screen Shot 2020-06-09 at 3 41 55 pm" src="https://user-images.githubusercontent.com/1059276/84113239-910e1d80-aa6d-11ea-9e6e-809d422da3ac.png">
 
