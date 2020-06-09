@@ -24,8 +24,8 @@ Select Apple
 
 Add a Service Id... 
 
-<img width="956" alt="Screen Shot 2020-06-09 at 1 48 30 pm" src="https://user-images.githubusercontent.com/1059276/84108131-cfeaa600-aa62-11ea-9507-b637ec14a575.png">
+<img width="952" alt="Screen Shot 2020-06-09 at 1 47 13 pm" src="https://user-images.githubusercontent.com/1059276/84108089-bd706c80-aa62-11ea-870c-e22ee1ba6b08.png">
 
 or... 
 
-<img width="952" alt="Screen Shot 2020-06-09 at 1 47 13 pm" src="https://user-images.githubusercontent.com/1059276/84108089-bd706c80-aa62-11ea-870c-e22ee1ba6b08.png">
+<img width="956" alt="Screen Shot 2020-06-09 at 1 48 30 pm" src="https://user-images.githubusercontent.com/1059276/84108131-cfeaa600-aa62-11ea-9507-b637ec14a575.png">
