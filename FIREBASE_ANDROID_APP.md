@@ -17,9 +17,9 @@ Enter your package name
 
 Download the file 
 
-<img width="542" alt="Screen Shot 2020-06-09 at 4 37 13 pm" src="https://user-images.githubusercontent.com/1059276/84125544-0682e980-aa80-11ea-8633-19893f2e7128.png">
+<img width="704" alt="Screen Shot 2020-06-09 at 6 19 58 pm" src="https://user-images.githubusercontent.com/1059276/84152754-65f4ef80-aaa8-11ea-9d0f-2a54dbb4ffb2.png">
 
-hit Next to skip through the rest 
+Hit Next to skip through the rest 
 
 You can add `google-services.json` to the project at `android/app`.
 
