@@ -45,8 +45,11 @@ Enter your bundle id
 - you can leave the App Store ID blank 
 - hit Next
 
-Download the file 
 <img width="614" alt="Screen Shot 2020-06-09 at 3 41 55 pm" src="https://user-images.githubusercontent.com/1059276/84113239-910e1d80-aa6d-11ea-9e6e-809d422da3ac.png">
+
+Download the file 
+
+<img width="736" alt="Screen Shot 2020-06-09 at 4 02 28 pm" src="https://user-images.githubusercontent.com/1059276/84113566-2dd0bb00-aa6e-11ea-9589-2c08017efa67.png">
 
 hit Next to skip through the rest 
 
