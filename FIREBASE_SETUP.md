@@ -53,6 +53,6 @@ Download the file
 
 hit Next to skip through the rest 
 
-You can add `GoogleService-Info.plist` to the project at `ios/Runner`, but it's better to open XCode and move the file into the `Runner/Runner` section so the `project.pbxproj` file picks up the change. 
+You can add `GoogleService-Info.plist` to the project at `ios/Runner`, but it's better to open XCode and move the file into the `Runner/Runner` section so the change gets picks up and added to the `project.pbxproj` file.
 
 Remember to add the file to `.gitignore` 
