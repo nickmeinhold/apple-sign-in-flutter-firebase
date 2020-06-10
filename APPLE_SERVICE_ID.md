@@ -37,14 +37,18 @@ Click Configure
 
 <img width="1186" alt="Screen Shot 2020-06-09 at 9 33 38 pm" src="https://user-images.githubusercontent.com/1059276/84144994-7c954980-aa9c-11ea-812b-aff6e2e5d678.png">
 
-Select the App Id created in previous steps, 
+Select the App Id (that was created in the App Id step), and add a Return URL (created in the Server Setup step)
 
-[FIREBASE_SETUP.md](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/FIREBASE_SETUP.md)
+<img width="690" alt="Screen Shot 2020-06-10 at 2 20 30 am" src="https://user-images.githubusercontent.com/1059276/84173761-10790c80-aac1-11ea-92f2-697c6a3bc094.png">
 
-<img width="710" alt="Screen Shot 2020-06-09 at 9 51 54 pm" src="https://user-images.githubusercontent.com/1059276/84145001-7e5f0d00-aa9c-11ea-8819-72f680d7ac86.png">
+Click Done 
 
 <img width="714" alt="Screen Shot 2020-06-09 at 9 51 40 pm" src="https://user-images.githubusercontent.com/1059276/84145022-84ed8480-aa9c-11ea-8f07-bdea18df225c.png">
 
+Click Continue 
+
 <img width="1186" alt="Screen Shot 2020-06-09 at 9 55 26 pm" src="https://user-images.githubusercontent.com/1059276/84145028-87e87500-aa9c-11ea-9a92-f682fce4615e.png">
+
+Click Save 
 
 <img width="1173" alt="Screen Shot 2020-06-09 at 9 55 41 pm" src="https://user-images.githubusercontent.com/1059276/84145036-8a4acf00-aa9c-11ea-8b39-f6a1bac7c565.png">

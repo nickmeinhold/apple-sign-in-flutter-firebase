@@ -1,4 +1,4 @@
-Go to Signing & Capabilities
+Open XCode and go to Signing & Capabilities
 
 <img width="445" alt="Screen Shot 2020-06-09 at 11 58 41 pm" src="https://user-images.githubusercontent.com/1059276/84157345-fa158580-aaad-11ea-8055-466291b3880f.png">
 

@@ -22,8 +22,12 @@ Demonstrates using the [sign_in_with_apple](https://github.com/aboutyou/dart_pac
 - [APPLE_SERVICE_ID.md](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_SERVICE_ID.md)
   - record the the `Service Id` identifier 
 
-#### Adding the Apple Sign In Capability in XCode 
-- [XCODE_CAPABILITY.md](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/XCODE_CAPABILITY.md)
+#### Configuring the iOS and Android apps 
+- [CONFIGURE_IOS.md](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/CONFIGURE_IOS.md)
+- [CONFIGURE_ANDROID.md](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/CONFIGURE_ANDROID.md)
+
+#### Setup a Server 
+- [SETUP_SERVER.md](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/SETUP_SERVER.md)
 
 ## Order of steps 
 
@@ -45,12 +49,15 @@ Demonstrates using the [sign_in_with_apple](https://github.com/aboutyou/dart_pac
 #### Apple: App Id creation
 - needs the `bundle id` from [Flutter: app creation] 
 
-#### Apple: Service Id creation 
-- needs the `App Id` from [Apple: App Id creation] 
-- needs the `callback URL` from [Firebase: Enable Apple Sign In] 
-
 #### Apple: Auth Key creation 
 - needs the `App Id` from [Apple: App Id creation] 
 
-#### XCode: Apple Sign In Capability 
+#### Server: Setup 
+- needs the `Auth Key` from [Apple: Auth Key creation] 
+
+#### Apple: Service Id creation 
+- needs the `App Id` from [Apple: App Id creation] 
+- needs the `Redirect URI` from [Server: Setup] 
+
+#### Configure: iOS and Android apps
 - no dependencies 

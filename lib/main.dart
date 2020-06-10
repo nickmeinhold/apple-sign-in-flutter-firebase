@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
@@ -14,21 +15,60 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: StreamBuilder(
+          stream: FirebaseAuth.instance.onAuthStateChanged,
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              return GreetingPage(user: snapshot.data as FirebaseUser);
+            } else {
+              return SignInPage(title: 'Apple Sign In Firebase Demo');
+            }
+          }),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class GreetingPage extends StatelessWidget {
+  final FirebaseUser _user;
+
+  GreetingPage({FirebaseUser user}) : _user = user;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Greetings'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('display name: ${_user.displayName}'),
+            Text('email: ${_user.email}'),
+            Text('provider id: ${_user.providerId}'),
+            MaterialButton(
+                child: Text('Sign Out'),
+                color: Colors.lightGreen,
+                onPressed: () {
+                  FirebaseAuth.instance.signOut();
+                })
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class SignInPage extends StatefulWidget {
+  SignInPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _SignInPageState createState() => _SignInPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _SignInPageState extends State<SignInPage> {
   String _stateDescription = '';
 
   @override
@@ -46,17 +86,29 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SignInWithAppleButton(
               onPressed: () async {
-                final credential = await SignInWithApple.getAppleIDCredential(
+                final appleIdCredential =
+                    await SignInWithApple.getAppleIDCredential(
                   scopes: [
                     AppleIDAuthorizationScopes.email,
                     AppleIDAuthorizationScopes.fullName,
                   ],
+                  webAuthenticationOptions: WebAuthenticationOptions(
+                    clientId: <CLIENT_ID>,
+                    redirectUri: Uri.parse(
+                      <REDIRECT_URI>,
+                    ),
+                  ),
                 );
 
-                print(credential);
+                // get an OAuthCredential
+                final credential =
+                    OAuthProvider(providerId: 'apple.com').getCredential(
+                  idToken: appleIdCredential.identityToken,
+                  accessToken: appleIdCredential.authorizationCode,
+                );
 
-                // Now send the credential (especially `credential.authorizationCode`) to your server to create a session
-                // after they have been validated with Apple (see `Integration` section for more information on how to do this)
+                // use the credential to sign in to firebase
+                await FirebaseAuth.instance.signInWithCredential(credential);
               },
             )
           ],
