@@ -23,11 +23,11 @@ The order doesn't matter too much as you can usually come back and edit things b
 4. [Create Apple Auth Key](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_AUTH_KEY.md)
    - needs the `App Id`
 
-5. [Setup a Server](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/SETUP_SERVER.md)
+5. [Setup a Server](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/SETUP_SERVER.md) (for Android/Web)
    - needs the `Auth Key` 
    - record the `Redirect URI`
 
-6. [Create Apple Service Id](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_SERVICE_ID.md)
+6. [Create Apple Service Id](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_SERVICE_ID.md) (for Android/Web)
    - needs the `App Id`
    - needs the `Redirect URI`
    - record the the `Service Id` identifier 
