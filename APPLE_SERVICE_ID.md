@@ -2,7 +2,8 @@ Go to [Certificates, Identifiers & Profiles - Apple Developer > Service Ids](htt
 
 You may need to select Service Ids at the top right of the screen
 
-<kbd><img width="400" src="https://user-images.githubusercontent.com/1059276/84144936-68e9e300-aa9c-11ea-9c4a-2f638954454d.png"></kbd>
+<kbd><img width="600" src="https://user-images.githubusercontent.com/1059276/84144936-68e9e300-aa9c-11ea-9c4a-2f638954454d.png"></kbd>
+
 <kbd><img width="400" src="https://user-images.githubusercontent.com/1059276/84144947-6b4c3d00-aa9c-11ea-8164-8269e05cda77.png"></kbd>
 
 Hit the + button 
