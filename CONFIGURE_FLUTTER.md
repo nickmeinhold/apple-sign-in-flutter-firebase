@@ -11,7 +11,7 @@ final appleIdCredential = SignInWithApple.getAppleIDCredential(
 For Android/Web config, also use the (previously created) Service Id and Redirect Uri, with `webAuthenticationOptions`: 
 
 ```Dart
-SignInWithApple.getAppleIDCredential(
+final appleIdCredential = SignInWithApple.getAppleIDCredential(
     scopes: [
         AppleIDAuthorizationScopes.email,
         AppleIDAuthorizationScopes.fullName,
@@ -30,8 +30,8 @@ Use the AppleIdCredential to sign in with Firebase.
 ```Dart 
 // Convert to OAuthCredential.
 final oAuthCredential = OAuthProvider('apple.com').credential(
-    idToken: credential.identityToken,
-    accessToken: credential.authorizationCode,
+    idToken: appleIdCredential.identityToken,
+    accessToken: appleIdCredential.authorizationCode,
 );
 
 // Use the OAuthCredential to sign in to Firebase.
