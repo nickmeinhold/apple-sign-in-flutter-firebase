@@ -20,7 +20,7 @@ The order doesn't matter too much as you can usually come back and edit things b
 3. [Create Apple App Id](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_APP_ID.md)
    - needs the `bundle id`
 
-4. [Create Apple Auth Key](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_AUTH_KEY.md)
+4. [Create Apple Auth Key](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/APPLE_AUTH_KEY.md) (for Android/Web)
    - needs the `App Id`
 
 5. [Setup a Server](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/SETUP_SERVER.md) (for Android/Web)
