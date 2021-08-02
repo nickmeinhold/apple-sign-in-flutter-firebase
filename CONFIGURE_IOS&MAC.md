@@ -18,4 +18,10 @@ Now you should see something like this:
 
 <img width="673" alt="Screen Shot 2021-08-02 at 1 43 37 pm" src="https://user-images.githubusercontent.com/1059276/127802428-3da00a47-19bf-46ac-80b7-b066a9093d6c.png">
 
+### For MacOS
+
+Add Outgoing Connections to the Sandbox settings: 
+
+<img width="398" alt="Screen Shot 2021-08-02 at 2 08 53 pm" src="https://user-images.githubusercontent.com/1059276/127803224-ab1f8d4f-b2a5-47fd-8418-7cd2222d972b.png">
+
 And that's it! 
