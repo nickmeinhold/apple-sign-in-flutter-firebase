@@ -32,7 +32,7 @@ The order doesn't matter too much as you can usually come back and edit things b
    - needs the `Redirect URI`
    - record the the `Service Id` identifier 
 
-9. [Configure iOS App](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/CONFIGURE_IOS.md)
+9. [Configure iOS &/| Mac Apps](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/CONFIGURE_IOS.md)
 
 10. [Configure Android App](https://github.com/nickmeinhold/apple-sign-in-flutter-firebase/blob/master/CONFIGURE_ANDROID.md)
 
